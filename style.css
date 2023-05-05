@@ -1,0 +1,71 @@
+
+form.row {
+    max-width: 550px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 10px 5px 15px #0000003b;
+    padding: 20px 25px;
+    height: 500px;
+}
+.col-md-6 {
+    margin-top: 40px;
+}
+.col-md-3 {
+    margin-top: 40px;
+}
+.col-12 {
+    margin-top: 50px;
+}
+.d-block {
+    height: 745px;
+}
+.ankete__flex {
+    display: flex;
+}
+.navbar {
+    margin-top: 50px;
+}
+.topic {
+    text-align: center;
+    margin: 40px auto;
+    font-style: italic;
+}
+.accordion-collapse {
+    display: flex;
+    padding: 15px 0;
+}
+.accordion-button:focus {
+    box-shadow: none ;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 42, 0, 0.21);
+}
+.film__1 {
+    font-style: italic;
+}
+.accordion-button:not(.collapsed).numer__2{
+    background-color: rgba(255, 242, 0, 0.21);
+}
+.accordion-button:not(.collapsed).numer__3{
+    background-color: rgba(0, 255, 21, 0.21);
+}
+.carousel-control-next-icon {
+    background-color: #82828256;
+}
+.carousel-control-prev-icon {
+    background-color: #82828256;
+}
+
+@media (max-width:767px) {
+    .img_anketa {
+        display: none;
+    }
+form.row {
+    height: 1000px;
+}
+}
+
+@media (max-width:575px) {
+
+}

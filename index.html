@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ternopil24.com.ua/wp-content/uploads/2020/12/kinoteatr-kino-spozyvach.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Red cinema hall</h5>
+              <p>In this hall we show romantic movies, series and action movies</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://filmkaku.com/wp-content/uploads/2022/05/Jiangnan_Photography.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Blue cinema hall</h5>
+              <p>In this hall we show fantasy, drama and comedy movies.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.c55561b71e859b95475f8210e950796d?rik=oKgfZpxXfYX6pQ&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Black cinema hall</h5>
+              <p>In this hall we show thrillers, horror films and action movies.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ankete__flex">
+            <img class="img_anketa" src="https://www.stop-multikulti.cz/wp-content/uploads/2016/12/anketa.jpg" height="700px" alt="">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Anastasia" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Tsymbala" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">State</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Kyiv</option>
+                    <option>Lviv</option>
+                    <option>Odesa</option>
+                    <option>Kharkiv</option>
+                    <option>Kherson</option>
+                    <option>Ternopil</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+
+            </div>
+
+            <h1 class="topic">Sessions in our cinema</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4 class="film__1">Mafia Mamma</h4>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <img src="https://kinoafisha.ua/upload/2023/03/films/10008/257qyh3ymaf-ya-mama.webp" height="300px" alt="">
+                    <div class="accordion-body">An insecure American woman inherited her grandfather's mafia empire. Under the guidance of the firm's trusted consultant, she hilariously defies all expectations, including her own as the new head of the family business. <br><br><br> Country, year: USA, 2023 <br>Genre: comedy, action<br>Director: Katherine Hardwick<br>Actors: Toni Collette, Monica Bellucci, Livia De Paolis, Alfonso Perugini, Giulio Corso ...<br>Premiere in Ukraine: April 27, 2023<br>Duration: 1 hour. 41 min.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button numer__2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h4 class="film__1">Les trois mousquetaires: D'Artagnan</h4>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <img src="https://kinoafisha.ua/upload/2023/02/films/9998/259fo93ntri-mushketeri-d-artanyan.webp" height="300px" alt="">
+                    <div class="accordion-body">From the Louvre to Buckingham Palace, from the slums of Paris to the siege of La Rochelle... In a country torn apart by religious wars and threatened by the invasion of the British army, a handful of men and women cross swords, linking their fate with the fate of France.<br><br><br>Country, year: Great Britain, 2023<br>Genre: adventure, historical<br>Director: Martin Bourbulon<br>Actors: Vincent Cassel, Eva Green, Francois Sieuville, Romain Duris, Pio Marmay<br>Premiere in Ukraine: April 20, 2023<br>Duration: 2 hours. 1 min.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button numer__3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h4 class="film__1">Mavka. Forest Song</h4>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <img src="https://kinoafisha.ua/upload/2017/08/films/7928/1531116203mavka-lesnaya-pesnya.webp" height="400px" alt="">
+                    <div class="accordion-body">Boundless Ukrainian forests have been hiding many secrets and mysteries for a long time. Here, among the age-old trees, live unusual mythical creatures that guard their world invisible to the human eye.
+                        Mavka is the soul of the forest. Its main vocation is to protect the Forest and its Heart - the source of life itself - from any encroachments, including human encroachments.
+                        Lukash is an ordinary village boy who is fond of music and puts all his talent into playing the flute. Thanks to the boy's music, a miracle happens: Mavka and Lukash meet and fall in love with each other.
+                        Their union is already almost impossible, but obstacles become even greater when the self-interested and powerful Kylina appears in the village. Not far from the Forest, she builds a sawmill, which is only a cover for her real goal - to get to the Heart of the Forest. Kylyna knows that the key to him is Mavka, in whose heart love has already settled and made her vulnerable. In order to use Mavka, Kylyna chooses as her tools the lover Lukash and the villagers, whose souls she fills with malice and fear.
+                        Will Mavka and Lukash be able to protect their feelings? Can Mavka save the Forest and her love? Will each of the two lovers make the right choice?<br><br>Country, year: Ukraine, 2022<br>Genre: comedy, cartoon, fantasy<br>Director: Oleksandra Ruban, Oleg Malamuzh<br>Screenwriter: Yaroslav Voytsshek<br>Producer: Iryna Kostyuk, Yehor Olesov ...<br>Premiere in Ukraine: March 2, 2023<br>Duration: 1 hour. 25 min.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+<script src="./Bootstrap/bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
+</html>
